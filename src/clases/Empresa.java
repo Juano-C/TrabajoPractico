@@ -232,7 +232,7 @@ public class Empresa{
                         while(iterador.hasNext()){
 
                             paquetes paquete=iterador.next();
-                                if(paquete.getDestino().equals(getCamionesConDestino().get(Camion)) && paquete.getRefrigeraci�n()==true){
+                                if(paquete.getDestino().equals(getCamionesConDestino().get(Camion)) && paquete.getRefrigeracion()==true){
 
                                     if(capacidadCamion>=paquete.getVolumen() && pesoCamion>= paquete.getPeso()){
 
@@ -263,7 +263,7 @@ public class Empresa{
                              while(iterador.hasNext()){
 
                                  paquetes paquete=iterador.next();
-                                     if(paquete.getDestino().equals(getCamionesConDestino().get(Camion)) && paquete.getRefrigeraci�n()==false){
+                                     if(paquete.getDestino().equals(getCamionesConDestino().get(Camion)) && paquete.getRefrigeracion()==false){
 
                                          if(capacidadCamion>=paquete.getVolumen() && pesoCamion>= paquete.getPeso()){
 

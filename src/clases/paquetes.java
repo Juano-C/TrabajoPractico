@@ -34,10 +34,10 @@ public class paquetes{
     public void setDestino(String destino){
         this.destino = destino;
     }
-    public boolean getRefrigeraci�n(){
+    public boolean getRefrigeracion(){
         return necesitaRefrigeracion;
     }
-    public void setRefrigeraci�n(boolean necesitaRefrigeracion){
+    public void setRefrigeracion(boolean necesitaRefrigeracion){
         this.necesitaRefrigeracion = necesitaRefrigeracion;
     }
 
@@ -51,7 +51,7 @@ public class paquetes{
         st.append(", ");
         st.append(this.getVolumen());
         st.append(", ");
-        st.append(this.getRefrigeraci�n());
+        st.append(this.getRefrigeracion());
         return st.toString();
     }
 
