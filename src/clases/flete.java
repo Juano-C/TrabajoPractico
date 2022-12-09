@@ -15,7 +15,7 @@ public class flete extends transporte{
         this.costoPorAcompaniante=costoPorAcompaniante;
     }
 
-/*------------------------Methods-----------------------------------*/	
+/*------------------------Methods-----------------------------------*/
 
     public int getcantAcompaniantes(){
         return cantAcompaniantes;

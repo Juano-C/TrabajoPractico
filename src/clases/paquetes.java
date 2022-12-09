@@ -7,7 +7,7 @@ public class paquetes{
     private String destino;
     private boolean necesitaRefrigeracion;
 
-/*-----------------------Constructor--------------------------------*/	
+/*-----------------------Constructor--------------------------------*/
 
     public paquetes(String destino, double peso, double volumen,  boolean necesitaRefrigeracion){
         this.peso = peso;

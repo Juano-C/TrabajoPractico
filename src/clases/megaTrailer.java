@@ -6,7 +6,7 @@ public class megaTrailer extends transporte{
     private double costoFijo;
     private double costoComida;
 
-/*-----------------------Constructor--------------------------------*/	
+/*-----------------------Constructor--------------------------------*/
 
     public megaTrailer(String matricula, double cargaMax, double capacidad, boolean tieneRefrigeracion, double costoKm, double segCarga, double costoFijo, double costoComida){
         super(matricula, cargaMax, capacidad, costoKm,tieneRefrigeracion);

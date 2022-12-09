@@ -17,8 +17,10 @@ public class pruebas {
     emp.agregarMegaTrailer("ABB975BT", 2000, 1000, true, 100, 50, 30, 20);
     emp.agregarTrailer("AKT756UO", 4000, 120, true, 10, 32);
 
-    emp.asignarDestino("AGT777FE","Cordoba");				//capacidad>volumen para agregar todos
-    emp.asignarDestino("AAA675GT","Santa Fe");				//cargaMax>peso para agregar todos
+    //capacidad>volumen para agregar todos
+    emp.asignarDestino("AGT777FE","Cordoba");
+    //cargaMax>peso para agregar todos
+    emp.asignarDestino("AAA675GT","Santa Fe");
     emp.asignarDestino("ABB975BT","Lima");
 
     //destino,peso,volumen,necesitaRefrigeracion

@@ -84,7 +84,7 @@ public class Empresa{
     }
     public void setCamionesConDestino(Map<transporte, String> camionesConDestino){
         this.camionesConDestino = camionesConDestino;
-    }	
+    }
     public Set<transporte> getFlotaDeTransportes(){
         return flotaDeTransportes;
     }
@@ -117,7 +117,7 @@ public class Empresa{
         return e;
     }
 
-/*-----------------------------------------------------incorporarPaquete--------------------------------------------------------------------------*/	
+/*-----------------------------------------------------incorporarPaquete--------------------------------------------------------------------------*/
 
     public boolean incorporarPaquete(String destino, double peso,double volumen, boolean necesitaRefrigeracion){
 
