@@ -33,7 +33,7 @@ public class flete extends transporte{
     public void setCostoPorAcompaniante(double costoPorAcompaniante){
         this.costoPorAcompaniante = costoPorAcompaniante;
     }
-    
+
     public boolean getRefrigeracion(){
         return flete.tieneRefrigeracion;
     }
@@ -83,7 +83,7 @@ public class flete extends transporte{
     public String tipo(){
         return "flete";
     }
-    
+
     @Override
     public Integer rangoKm(){
         return 0;

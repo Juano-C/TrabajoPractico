@@ -54,12 +54,12 @@ public class trailerComun extends transporte{
     public Integer rangoKm(){
         return 500;
     }
-    
+
     @Override
     public double costoViaje(){
         return getSegurodeCarga();
     }
-    
+
     public String toString(){
         StringBuilder st= new StringBuilder();
         st.append(tipo());

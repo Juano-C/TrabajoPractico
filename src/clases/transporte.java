@@ -90,7 +90,7 @@ public abstract class transporte{
         if (matricula == null){
             if (other.matricula != null)
                 return false;
-        } 
+        }
         else if (!matricula.equals(other.matricula))
             return false;
         return true;

@@ -113,7 +113,7 @@ public class Empresa{
 /*----------------------------------------------------crearEmpresa--------------------------------------------------------------------------------*/
 
     public Empresa crearEmpresa(String CUIT, String nombre, int capacidadDepositos){
-        Empresa e =new Empresa(CUIT,nombre,capacidadDepositos); 
+        Empresa e =new Empresa(CUIT,nombre,capacidadDepositos);
         return e;
     }
 

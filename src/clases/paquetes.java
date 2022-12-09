@@ -52,7 +52,6 @@ public class paquetes{
         st.append(this.getVolumen());
         st.append(", ");
         st.append(this.getRefrigeraci�n());
-        
         return st.toString();
     }
 
